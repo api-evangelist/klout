@@ -1,0 +1,55 @@
+generated: '2026-07-19'
+method: searched
+source: >-
+  Lithium Technologies shutdown announcement (May 2018) as reported by TechCrunch and Search
+  Engine Journal; live DNS/HTTP probes of klout.com, api.klout.com and developer.klout.com on
+  2026-07-19.
+status: retired
+versioning:
+  scheme: uri-path
+  current: null
+  last_known: v2
+  note: >-
+    The last public interface was the Klout API v2, served from api.klout.com. No versioning
+    policy page survives; the version is attested by third-party client libraries that state
+    they implement "the Klout REST API (v2+)".
+deprecation:
+  policy_url: null
+  sunset_header: false
+  note: >-
+    No formal deprecation policy or RFC 8594 Sunset/Deprecation header support was ever
+    published. The service and its API were retired together on a single announced date.
+sunset:
+  date: '2018-05-25'
+  announced: '2018-05-10'
+  announced_by: Lithium Technologies
+  reason: >-
+    Lithium CEO Pete Hess stated the Klout acquisition gave Lithium valuable AI and machine
+    learning capabilities, but that Klout as a standalone service was not aligned with the
+    company's long-term strategy. The retirement date coincided with the EU General Data
+    Protection Regulation taking effect.
+acquisition:
+  acquired_by: Lithium Technologies
+  date: '2014-03-27'
+  amount_usd: 200000000
+  successor_brand: Khoros
+  note: >-
+    Lithium Technologies was subsequently rebranded as Khoros. No successor product exposes the
+    Klout Score or the Klout API.
+sla:
+  url: null
+status_page: null
+probes:
+  - host: klout.com
+    result: 'HTTP 301 to https://khoros.com/platform/klout, which 302s to khoros.ai and lands on the Khoros homepage; direct HTTPS to klout.com fails the TLS handshake.'
+    checked: '2026-07-19'
+  - host: api.klout.com
+    result: NXDOMAIN — does not resolve
+    checked: '2026-07-19'
+  - host: developer.klout.com
+    result: NXDOMAIN — does not resolve
+    checked: '2026-07-19'
+archive:
+  url: https://web.archive.org/web/*/klout.com
+  note: The retired site and developer documentation survive only in the Internet Archive.
+deprecated_operations: []

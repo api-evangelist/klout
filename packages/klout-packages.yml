@@ -1,0 +1,82 @@
+generated: '2026-07-19'
+method: searched
+source: npm registry, RubyGems.org, PyPI registry searches for "klout"
+status: historical
+note: >-
+  No first-party Klout SDK was ever published to a public package registry, and none was found in
+  the Klout GitHub organization (github.com/klout contains only archived forks and mirrors of
+  third-party infrastructure projects). Every package listed below is a COMMUNITY-maintained
+  wrapper around the now-retired Klout API v2, catalogued here as a historical record of the
+  developer ecosystem that formed around the API. All of them are non-functional today: the Klout
+  API was shut down with the service on 2018-05-25 and api.klout.com no longer resolves. No
+  package is marked official, and no SDKs pointer is wired in apis.yml.
+packages:
+- language: ruby
+  registry: rubygems
+  name: klout
+  url: https://rubygems.org/gems/klout
+  version: 3.0.3
+  install: gem install klout
+  repository: https://github.com/tatemae-consultancy/klout
+  author: Brian Getting
+  downloads: 66019
+  description: Implements the complete functionality of the Klout REST API (v2+).
+  official: false
+- language: ruby
+  registry: rubygems
+  name: klout-rb
+  url: https://rubygems.org/gems/klout-rb
+  version: 1.0.1
+  install: gem install klout-rb
+  repository: https://github.com/cdamian/klout-rb
+  author: Damian Caruso
+  downloads: 8474
+  description: Ruby wrapper for the Klout REST API.
+  official: false
+- language: ruby
+  registry: rubygems
+  name: omniauth-klout
+  url: https://rubygems.org/gems/omniauth-klout
+  version: 0.1.0
+  install: gem install omniauth-klout
+  downloads: 6535
+  description: An OmniAuth strategy for Klout.
+  official: false
+- language: javascript
+  registry: npm
+  name: klout
+  url: https://www.npmjs.com/package/klout
+  version: 0.2.4
+  install: npm install klout
+  repository: https://github.com/edwardhotchkiss/klout
+  author: Edward Hotchkiss
+  published: '2012-03-23'
+  description: Node.js Klout API wrapper.
+  official: false
+- language: javascript
+  registry: npm
+  name: node_klout
+  url: https://www.npmjs.com/package/node_klout
+  version: 0.3.1
+  install: npm install node_klout
+  repository: https://github.com/cojohn/node_klout
+  author: Christopher John
+  published: '2013-12-18'
+  description: Klout API wrapper.
+  official: false
+- language: javascript
+  registry: npm
+  name: klout-js
+  url: https://www.npmjs.com/package/klout-js
+  version: 0.0.3
+  install: npm install klout-js
+  description: A simple wrapper around the Klout API.
+  official: false
+- language: python
+  registry: pypi
+  name: Klout
+  url: https://pypi.org/project/Klout/
+  version: 0.1.3
+  install: pip install Klout
+  description: Minimalist Klout API interface.
+  official: false
