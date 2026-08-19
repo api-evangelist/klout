@@ -44,7 +44,7 @@ x-status-reason: 'Klout was retired as a standalone service by Lithium Technolog
 x-acquired-by: khoros
 x-acquired-date: '2014-03-27'
 x-defunct-date: '2018-05-25'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
