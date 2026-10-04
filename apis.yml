@@ -52,7 +52,7 @@ x-status: defunct
 x-status-reason: 'Klout was retired as a standalone service by Lithium Technologies on 2018-05-25;
   the Klout API v2 (api.klout.com) was shut down with it. api.klout.com and developer.klout.com
   no longer resolve, and klout.com redirects to the Khoros website.'
-x-acquired-by: khoros
+x-acquired-by: khoros-ai
 x-acquired-date: '2014-03-27'
 x-defunct-date: '2018-05-25'
 specificationVersion: '0.23'
@@ -61,7 +61,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Consumer
-- Social-Media
+- Social Media
 - Social Analytics
 - Influence Scoring
 - Social Scoring
@@ -80,6 +80,7 @@ tags_raw:
 - Reputation
 - Defunct
 - Acquired
+- Social-Media
 apis: []
 maintainers:
 - FN: Kin Lane
