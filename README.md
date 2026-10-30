@@ -64,20 +64,45 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Klout was a San Francisco social-analytics company, founded in 2008 by Joe Fernandez and Binh Tran, that scored individuals on their online social influence. The "Klout Score" was a single number from 1 to 100 derived from the size of a person's social network and how other people engaged with the content they published across connected accounts such as Twitter, Facebook, LinkedIn, Instagram, and Google+.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Klout operated a public REST API — the Klout API v2 at `api.klout.com` — that let developers resolve a social handle to a Klout identity, look up a user's score and score history, and retrieve influence graphs and topic affinities. A large community of third-party client libraries grew up around it in Ruby, Node.js, Python, and PHP.
+Klout was a San Francisco social-analytics company, founded in 2008 by Joe Fernandez and Binh Tran, that scored individuals on their online social influence. The "Klout Score" was a single number from 1 to 100 derived from the size of a person's social network and how other people engaged with the content they published across connected accounts such as Twitter, Facebook, LinkedIn, Instagram, and Google+. Klout operated a public REST API — the Klout API v2 at api.klout.com — that let developers resolve a social handle to a Klout identity, look up a user's score and score history, and retrieve influence graphs (who a user influences and is influenced by) and topic affinities; access was key-based and widely used by marketing, CRM, and social-listening tools, and a large community of third-party client libraries grew up around it in Ruby, Node.js, Python, and PHP. Lithium Technologies acquired Klout on 27 March 2014 for approximately $200 million. Lithium retired Klout as a standalone service on 25 May 2018 — the day the EU General Data Protection Regulation took effect — stating that Klout's AI and machine-learning capabilities were valuable to Lithium but the consumer service was not aligned with its long-term strategy. The Klout API was shut down with the service. Lithium has since been rebranded as Khoros, and klout.com now redirects into the Khoros website. The company is defunct and operates no live API; this profile is retained as a historical provider record in the API Evangelist network.
 
-## Status: defunct
+**Areas:** Company · Consumer · Social Media · Social Analytics · Influence Scoring · Social Scoring · Marketing · Reputation · Defunct · Acquired
 
-Lithium Technologies acquired Klout on 27 March 2014 for approximately $200 million, and retired Klout as a standalone service on **25 May 2018** — the day the EU General Data Protection Regulation took effect. The Klout API was shut down with the service. Lithium has since been rebranded as Khoros, and `klout.com` now redirects into the Khoros website.
+## Klout on APIs.io (historical record)
 
-`api.klout.com` and `developer.klout.com` no longer resolve. This profile is retained as a historical provider record in the API Evangelist network.
+Everything profiled for Klout is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/klout/](https://apis.io/providers/klout/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-- `lifecycle/klout-lifecycle.yml` — retirement, sunset, and acquisition record, with live host probes
-- `packages/klout-packages.yml` — the historical community SDK ecosystem (no first-party SDK ever shipped)
-- `security/klout-domain-security.yml` — probed DNS/TLS posture of the surviving domain
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Backed by: kleiner-perkins
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Klout Domain Security](https://apis.io/security/klout/klout-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://klout.com)
+- [GitHub](https://github.com/klout)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Klout: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/klout/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
